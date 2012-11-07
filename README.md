@@ -47,3 +47,15 @@ Authors and Licensing
 This program has been written by Andreas Löf <andreas@alternating.net>
 and is licensed under the GPLv3.
 
+Limitations
+-----------
+
+The program only connects to the first scanner it detects. If you have
+multiple scanners, this will cause trouble.
+
+The program doesn't allow you to select a region of a page for
+scanning, it only supports whole pages.
+
+The program only outputs in A4. Adding support for other paper sizes
+would be easy, and will be done if other users request it.
+
