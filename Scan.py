@@ -244,9 +244,11 @@ class ScanWindow(wx.Frame):
             self.scanner.tl_x = 0
             self.scanner.tl_y = 0
             option = get_scanner_option (self.scanner, 'br-x')
-            self.scanner.br_x = option[8][1]
+#            self.scanner.br_x = option[8][1]
+            self.scanner.br_x = 210.0
             option = get_scanner_option (self.scanner, 'br-y')
-            self.scanner.br_y = option[8][1]
+            #self.scanner.br_y = option[8][1]
+            self.scanner.br_y = 297.0
         except AttributeError:
             print "WARNING: Can't set scan geometry"
         #scan
